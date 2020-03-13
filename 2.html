@@ -1,21 +1,45 @@
-<!DOCTYPE html>
+</<!DOCTYPE html>
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
     <title>Project</title>
-    <h1>Study1</h1>
-    <ol>
-      <li><a href="1.html">첫 페이지</a></li>
-      <li><a href="2.html">둘째 페이지</a></li>
-      <li><a href="3.html">셋째 페이지</a></li>
-    </ol>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <style>
+      table{
+        width:700px;
+        height: 200px;
+        margin: auto;
+        table-layout: fixed;
+      }
+      table,th,td{
+        text-align: center;
+      }
+      th{
+        color: white;
+        background-color: #4782c1;
+      }
+      tbody tr:nth-child(2n){
+        background-color: #c7d3e1;
+      }
+      tbody tr:nth-child(2n+1){
+        background-color: #e1e7ed;
+      }
+    </style>
   </head>
-
   <body>
-    <table border>
+    <h1>Project</h1>
+    <div id="grid">
+      <div id="sidebar">
+        <div id="Study1">Study</div>
+        <div id="l1"><a href="1.html">첫째 페이지</a></div>
+        <div id="l2"><a href="2.html">둘째 페이지</a></div>
+        <div id="l3"><a href="3.html">셋째 페이지</a></div>
+      </div>
+      <div id="article">
+        <table>
       <tr>
-        <td>주제</td>
-        <td>내용</td>
+        <th>주제</th>
+        <th>내용</th>
       </tr>
       <tr>
         <td>사진</td>
@@ -33,7 +57,8 @@
         <td>성별</td>
         <td>여</td>
       </tr>
-
+      </div>
+    </div>
 
   </body>
 </html>

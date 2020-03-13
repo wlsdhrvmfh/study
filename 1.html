@@ -1,50 +1,87 @@
-<!DOCTYPE html>
+</<!DOCTYPE html>
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
     <title>Project</title>
-    <h1>Study1</h1>
-    <ol>
-      <li><a href="1.html">첫 페이지</a></li>
-      <li><a href="2.html">둘째 페이지</a></li>
-      <li><a href="3.html">셋째 페이지</a></li>
-    </ol>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <style>
+      #grid #article #new a{
+        display:grid;
+        text-decoration: none;
+        background-color: #e6295a;
+        color:white;
+        padding: 10px;
+        border-style: outset;
+        width:180;
+      }
+      table{
+        width:700px;
+        height: 200px;
+        margin: auto;
+        table-layout: fixed;
+      }
+      table,th,td{
+        text-align: center;
+      }
+      th{
+        color: white;
+        background-color: #4782c1;
+      }
+      tbody tr:nth-child(2n){
+        background-color: #c7d3e1;
+      }
+      tbody tr:nth-child(2n+1){
+        background-color: #e1e7ed;
+      }
+    </style>
   </head>
-
   <body>
-    <a href="3.html">새 회원 등록</a>
-    <table border>
-      <tr>
-        <td>번호</td>
-        <td>이름</td>
-        <td>직업</td>
-        <td>성별</td>
-      </tr>
-      <tr>
-        <td>1</td>
-        <td>이진옥</td>
-        <td>정토행자</td>
-        <td>여</td>
-      </tr>
-      <tr>
-        <td>2</td>
-        <td>김성현</td>
-        <td>수행자</td>
-        <td>남</td>
-      </tr>
-      <tr>
-        <td>3</td>
-        <td>백배순</td>
-        <td>어르신</td>
-        <td>남</td>
-      </tr>
-      <tr>
-        <td>4</td>
-        <td>이영자</td>
-        <td>개그우먼</td>
-        <td>여</td>
-      </tr>
-    </table>
+    <h1>Project</h1>
+    <div id="grid">
+      <div id="sidebar">
+        <div id="Study1">Study</div>
+        <div id="l1"><a href="1.html">첫째 페이지</a></div>
+        <div id="l2"><a href="2.html">둘째 페이지</a></div>
+        <div id="l3"><a href="3.html">셋째 페이지</a></div>
+      </div>
+      <div id="article">
+        <div id="new"><a href="3.html">새 회원 등록</a></div>
+      <div id="t">
+        <table>
+        <tr>
+          <th>번호</th>
+          <th>이름</th>
+          <th>직업</th>
+          <th>성별</th>
+        </tr>
+        <tr>
+          <td>1</td>
+          <td>이진옥</td>
+          <td>정토행자</td>
+          <td>여</td>
+        </tr>
+        <tr>
+          <td>2</td>
+          <td>김성현</td>
+          <td>수행자</td>
+          <td>남</td>
+        </tr>
+        <tr>
+          <td>3</td>
+          <td>백배순</td>
+          <td>어르신</td>
+          <td>남</td>
+        </tr>
+        <tr>
+          <td>4</td>
+          <td>이영자</td>
+          <td>개그우먼</td>
+          <td>여</td>
+        </tr>
+      </table>
+      </div>
+    </div>
+    </div>
 
   </body>
 </html>

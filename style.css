@@ -1,0 +1,67 @@
+h1{
+  color:white;
+  background-color: #3b667b;
+  margin: 0;
+}
+body{
+  margin:0;
+}
+#grid{
+  display:grid;
+  grid-template-columns: 160px 1fr;
+  background-color: #dff1fa;
+  text-align: center;
+}
+#grid #sidebar{
+  height: 500px;
+}
+#grid #article{
+  display:grid;
+  padding-left:25px;
+  background-color: white;
+}
+#grid #Study1{
+  color:white;
+  background-color: #163d66;
+  border width: thick;
+  padding: 5px;
+  margin:8px;
+  font-weight: bold;
+  font-size: 25px;
+  border-style: solid;
+  border-color: #b4b4b4;
+  border-width:3px;
+}
+#grid #sidebar #l1 a{
+  text-decoration: none;
+  color:white;
+  background-color: gray;
+  padding: 5px;
+  margin:8px;
+  font-size: 20px;
+  border-style: solid;
+  border-color: #b4b4b4;
+  border-width:3px;
+}
+#grid #sidebar #l2 a{
+  text-decoration: none;
+  color:white;
+  background-color: gray;
+  padding: 5px;
+  margin:8px;
+  font-size: 20px;
+  border-style: solid;
+  border-color: #b4b4b4;
+  border-width:3px;
+}
+#grid #sidebar #l3 a{
+  text-decoration: none;
+  color:white;
+  background-color: gray;
+  padding: 5px;
+  margin:8px;
+  font-size: 20px;
+  border-style: solid;
+  border-color: #b4b4b4;
+  border-width:3px;
+}

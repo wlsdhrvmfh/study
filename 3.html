@@ -1,31 +1,55 @@
-<!DOCTYPE html>
+</<!DOCTYPE html>
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
     <title>Project</title>
-    <h1>Study1</h1>
-    <ol>
-      <li><a href="1.html">첫 페이지</a></li>
-      <li><a href="2.html">둘째 페이지</a></li>
-      <li><a href="3.html">셋째 페이지</a></li>
-    </ol>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <style>
+    table{
+      width:400px;
+      height: 200px;
+      margin:auto;
+    }
+    table,th,td{
+      text-align: center;
+    }
+    p{
+      display:grid;
+      background-color: orange;
+      width:250px;
+      height: 35px;
+      color:white;
+      border-style: outset;
+    }
+    </style>
   </head>
-
   <body>
-    <table>
+    <h1>Project</h1>
+    <div id="grid">
+      <div id="sidebar">
+        <div id="Study1">Study</div>
+        <div id="l1"><a href="1.html">첫째 페이지</a></div>
+        <div id="l2"><a href="2.html">둘째 페이지</a></div>
+        <div id="l3"><a href="3.html">셋째 페이지</a></div>
+      </div>
+      <div id="article">
+        <table>
       <tr>
-        <td>이름</td>
+        <th>이름</th>
         <td><input type="text" name="이름"></td>
       </tr>
       <tr>
-        <td>직업</td>
+        <th>직업</th>
         <td><input type="text" name="직업"></td>
       </tr>
       <tr>
-        <td>성별</td>
+        <th>성별</th>
         <td>남<input type="radio" name="성별">여<input type="radio" name="성별"></td>
       </tr>
     </table>
-      <input type="submit" value="회원 등록하기">
+    <p>회원 등록 하기</p>
+      </div>
+    </div>
+
   </body>
 </html>
