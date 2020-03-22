@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Project</title>
+    <style>
+      body{
+        background-color:#dff1fa;
+      }
+      #sidebar #Study{
+        color:white;
+        background-color: #163d66;
+        border width: thick;
+        padding: 5px;
+        margin:20px;
+        font-weight: bold;
+        font-size: 25px;
+        border-style: solid;
+        border-color: #b4b4b4;
+        border-width:3px;
+        text-align: center;
+      }
+      #sidebar #p1{
+        text-align: center;
+        background-color: #4782c1;
+        padding: 5px;
+        margin:20px;
+        font-size: 18px;
+        border-style: solid;
+        border-color: #b4b4b4;
+        border-width:3px;
+      }
+      #sidebar #p2{
+        text-align: center;
+        background-color: gray;
+        padding: 5px;
+        margin:20px;
+        font-size: 18px;
+        border-style: solid;
+        border-color: #b4b4b4;
+        border-width:3px;
+      }
+      #sidebar #p3{
+        text-align: center;
+        background-color: gray;
+        padding: 5px;
+        margin:20px;
+        font-size: 18px;
+        border-style: solid;
+        border-color: #b4b4b4;
+        border-width:3px;
+      }
+      a{
+        color:white;
+        text-decoration: none;
+      }
+      body{
+        margin: 0;
+      }
+      </style>
+  </head>
+  <body>
+    <div id="sidebar">
+      <div id="Study">Study</div>
+      <div id="p1" value="gray"><a href="main1.html" target="main" onclick="
+        document.querySelector('#p1').value='skyblue';
+        document.querySelector('#p1').style.background='#4782c1';
+        document.querySelector('#p2').style.background='gray';
+        document.querySelector('#p3').style.background='gray';
+        document.querySelector('#p2').value==='gray';
+        document.querySelector('#p3').value==='gray';
+        ">첫째 페이지</a></div>
+      <div id="p2" value="gray"><a href="main2.html" target="main" onclick="
+        document.querySelector('#p2').value='skyblue';
+        document.querySelector('#p2').style.background='#4782c1';
+        document.querySelector('#p1').style.background='gray';
+        document.querySelector('#p3').style.background='gray';
+        document.querySelector('#p1').value==='gray';
+        document.querySelector('#p3').value==='gray';
+        "/>둘째 페이지</a></div>
+
+      <div id="p3" value="gray"><a href="main3.html" target="main" onclick="
+        document.querySelector('#p3').value='skyblue';
+        document.querySelector('#p3').style.background='#4782c1';
+        document.querySelector('#p1').style.background='gray';
+        document.querySelector('#p2').style.background='gray';
+        document.querySelector('#p1').value==='gray';
+        document.querySelector('#p2').value==='gray';
+        "/>셋째 페이지</a></div>
+    </div>
+  </body>
+</html>
